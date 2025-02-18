@@ -1,0 +1,527 @@
+[
+    {
+        "pergunta": "Quem foi o primeiro homem a nascer?",
+        "respostas": ["Adão", "Set", "Caim", "Abel"],
+        "correta": 2
+    },
+
+    {
+        "pergunta": "Quem foi o Primeiro homem a morrer?",
+        "respostas": ["Adão", "Abel", "Moisés", "Set"],
+        "correta": 1
+    },
+
+    {
+        "pergunta": "Quem foi o profeta que predisse a destruição de Jerusalém?",
+        "respostas": ["Isaías", "Jeremias", "Daniel", "Elias"],
+        "correta": 1
+    },
+
+    {
+        "pergunta": "Qual foi o nome do rei que construiu o Templo de Jerusalém?",
+        "respostas": ["Davi", "Salomão", "Roboão", "Ezequias"],
+        "correta": 1
+    },
+
+    {
+        "pergunta": "Quem foi o anjo que anunciou o nascimento de Jesus?",
+        "respostas": ["Miguel", "Rafael ", "Gabriel", "Uriel"],
+        "correta": 2
+    },
+
+    {
+        "pergunta": "Qual foi o nome do discípulo que traiu Jesus?",
+        "respostas": ["Judas Iscariotes", "Pedro ", "Judas Tadeu", "João"],
+        "correta": 0
+    },
+
+    {
+        "pergunta": "Quem foi o apóstolo que escreveu a maioria das epístolas do Novo Testamento?",
+        "respostas": ["Paulo", "Pedro", "João", "Tiago"],
+        "correta": 0
+    },
+
+    {
+        "pergunta": "Qual foi o nome do lugar onde Jesus foi crucificado?",
+        "respostas": ["Calvário", "Jerusalém", "Belém", "Betânia"],
+        "correta": 0
+    },
+
+    {
+        "pergunta": "Qual é o nome do livro mais longo da Bíblia?",
+        "respostas": ["Gênesis", "Salmos", "Êxodo", "Isaías"],
+        "correta": 1
+    },
+
+    {
+        "pergunta": "Quem escreveu a maior parte dos Salmos?",
+        "respostas": ["Davi", "Salomão", "Moisés", "Asafe"],
+        "correta": 0
+    },
+
+    {
+        "pergunta": "Qual profeta foi engolido por um grande peixe?",
+        "respostas": ["Isaías", "Jeremias", "Jonas", "Ezequiel"],
+        "correta": 2
+    },
+
+    {
+        "pergunta": "Qual foi o profeta que andou nu por três anos?",
+        "respostas": ["Isaías", "Jeremias", "Ezequiel", "Oséias"],
+        "correta": 0 
+    },
+
+    {
+        "pergunta": "Qual apostolo foi chamado de 'Filho do Trovão'?",
+        "respostas": ["Pedro", "Tiago", "João", "André"],
+        "correta": 2 
+    },
+
+    {
+        "pergunta": "Qual profeta conhecido por fazer o ferro do machado flutuar?",
+        "respostas": ["Davi", "Oséias", "eliseu", "Isaías"],
+        "correta": 2 
+    },
+
+    {
+        "pergunta": "Quem foi jogado na cova dos leões?",
+        "respostas": ["Davi", "Daniel", "Elias", "Isaías"],
+        "correta": 1 
+    },
+
+    {
+        "pergunta": "Quantos animais moisés colocou na arca?",
+        "respostas": ["4", "2", "0", "1"],
+        "correta": 2 
+    },
+
+    {
+        "pergunta": "Quem abriu o mar vermelho?",
+        "respostas": ["Moisés", "Daniel", "Elias", "José"],
+        "correta": 0 
+    },
+
+    {
+        "pergunta": "Quem batisou Jesus?",
+        "respostas": ["Pedro", "João", "João Batista", "André"],
+        "correta": 2 
+    },
+
+    {
+        "pergunta": "Qual é o nome do rio que separa o Céu da Terra, de acordo com a Bíblia?",
+        "respostas": ["Rio Jordão", "Rio Eufrates", "Rio Tigris", "Rio do Céu"],
+        "correta": 1 
+    },
+
+    {
+        "pergunta": "Quem é conhecido como 'Pai da Fé'?",
+        "respostas": ["Jesus", "Jacó", "Abraão", "Moisés"],
+        "correta": 2 
+    },
+
+    {
+        "pergunta": "Quem foi a primeira mulher criada por Deus?",
+        "respostas": ["Rebeca", "Sara", "Eva", "Raquel"],
+        "correta": 2
+    },
+
+    {
+        "pergunta": "Qual é o nome do filho mais velho de Adão?",
+        "respostas": ["Set", "Abel", "Caim", "Noé"],
+        "correta": 2 
+    },
+    {
+        "pergunta": "Quem foi o apóstolo que negou Jesus três vezes?",
+        "respostas": ["André", "Tiago", "João", "Pedro"],
+        "correta": 3 
+    },
+    {
+        "pergunta": "Quem foi o rei que perseguiu os judeus no livro de Ester?",
+        "respostas": ["Dario", "Ciro", "Assuero", "Artaxerxes"],
+        "correta": 2 
+    },
+    {
+        "pergunta": "Qual é o nome do rio que os israelitas atravessaram para entrar na Terra Prometida?",
+        "respostas": [" Rio Nilo", "Rio Jordão", "Rio Eufrates", "Rio Tigre"],
+        "correta": 1 
+    },
+    {
+        "pergunta": "Quem foi o líder dos israelitas que os levou para fora do Egito?",
+        "respostas": ["Josué", "Miriã", "Aarão", "Moisés"],
+        "correta": 3 
+    },
+    {
+        "pergunta": "Qual é o nome da cidade onde Jesus nasceu?",
+        "respostas": ["Jerusalém", "Belém", "Nazaré", "Cafarnaum"],
+        "correta": 1 
+    },
+    {
+        "pergunta": "Quem foi o profeta que previu a vinda de Jesus?",
+        "respostas": ["Isaías", "Jeremias", "Ezequiel", "Malaquias"],
+        "correta": 0 
+    },
+    {
+        "pergunta": "Qual é o nome do livro bíblico que conta a história da criação?",
+        "respostas": ["Êxodo", "Levítico", "Gênesis", "Números"],
+        "correta": 2 
+    },
+    {
+        "pergunta": "Quem foi o rei que se arrependeu de seus pecados e foi perdoado?",
+        "respostas": ["Salomão", "Roboão", "Ezequias", "Davi"],
+        "correta": 3 
+    },
+    {
+        "pergunta": "Qual é o nome do profeta que foi levado ao céu em uma carruagem de fogo?",
+        "respostas": ["Eliseu", "Isaías", "Elias", "Jeremias"],
+        "correta": 2 
+    },
+    {
+        "pergunta": "Quem foi o apóstolo que foi escolhido para substituir Judas?",
+        "respostas": ["Matias", "Paulo", "Pedro", "João"],
+        "correta": 0 
+    },
+    {
+        "pergunta": "Quem foi o rei que construiu a cidade de Jerusalém?",
+        "respostas": ["Salomão", "Roboão", "Davi", "Ezequias"],
+        "correta": 2 
+    },
+    {
+        "pergunta": "Quem foi o profeta que escreveu o livro de Jonas?",
+        "respostas": ["Jonas", "Isaías", "Jeremias", "Ezequiel"],
+        "correta": 0 
+    },
+    {
+        "pergunta": "Qual é o nome do rei que se casou com a rainha Ester?",
+        "respostas": ["Assuero", "Dario", "Ciro", "Artaxerxes"],
+        "correta": 0 
+    },
+    {
+        "pergunta": "Quem foi o líder dos israelitas que os levou para a Terra Prometida?",
+        "respostas": ["Moisés", "Josué", "Aarão", "Miriã"],
+        "correta": 1 
+    },
+    {
+        "pergunta": "Qual é o significado do número 666 no Livro do Apocalipse?",
+        "respostas": ["O número da Besta", "O número do Anticristo", " O número do Falso Profeta", "O número da Nova Jerusalém"],
+        "correta": 1 
+    },
+    {
+        "pergunta": "Quem é a Mulher vestida de Sol no Livro do Apocalipse?",
+        "respostas": ["Israel", "A Igreja", "A Virgem Maria", "A Besta"],
+        "correta": 1 
+    },
+    {
+        "pergunta": "Qual é o significado das Sete Trombetas no Livro do Apocalipse?",
+        "respostas": ["Julgamento dos pecadores", "Vinda do Messias", "Destruição de Babilônia", "Restauração de Israel"],
+        "correta": 0 
+    },
+    {
+        "pergunta": "Quem é o Cavaleiro Branco no Livro do Apocalipse?",
+        "respostas": ["O Anticristo", "O Falso Profeta", "Jesus Cristo", "O Anjo da Morte"],
+        "correta": 2 
+    },
+    {
+        "pergunta": "Qual é o significado do Livro Selado no Livro do Apocalipse?",
+        "respostas": ["O plano de Deus para a humanidade", " O destino dos pecadores", "A vinda do Messias", "A destruição de Babilônia"],
+        "correta": 0
+    },
+    {
+        "pergunta": "Quem são os Quatro Cavaleiros do Apocalipse?",
+        "respostas": ["Jesus, Moisés, Abraão e Isaac", "O Anticristo, o Falso Profeta, a Besta e o Dragão", "Os Quatro Evangelistas", "Guerra, Fome, Peste e Morte"],
+        "correta": 3 
+    },
+    {
+        "pergunta": "Qual é o significado da Besta que sai do Mar no Livro do Apocalipse?",
+        "respostas": ["O Falso Profeta", "O Anticristo", " A Besta do Apocalipse", "O Dragão"],
+        "correta": 1 
+    },
+    {
+        "pergunta": "Quem é o Falso Profeta no Livro do Apocalipse?",
+        "respostas": ["O profeta falso que se opõe a Jesus", "O Papa", "O líder da ONU", "O Anticristo"],
+        "correta": 3 
+    },
+    {
+        "pergunta": "Qual é o significado das Sete Taças no Livro do Apocalipse?",
+        "respostas": ["Vinda do Messias", "Destruição de Babilônia", "Julgamento dos pecadores", "Restauração de Israel"],
+        "correta": 2 
+    },
+    {
+        "pergunta": "Quem é o Dragão no Livro do Apocalipse?",
+        "respostas": ["O Anticristo", "Satanás", "O Falso Profeta", "A Besta"],
+        "correta": 1 
+    },
+    {
+        "pergunta": "Qual é o significado da Nova Jerusalém no Livro do Apocalipse?",
+        "respostas": ["A igreja de Jesus", "A cidade celestial", "A restauração de Israel", "A destruição de Babilônia"],
+        "correta": 1 
+    },
+    {
+        "pergunta": "Quem são os 144.000 selados no Livro do Apocalipse?",
+        "respostas": ["Os anjos de Deus", "Os judeus convertidos", "Os escolhidos de Deus", "Os cristãos martirizados"],
+        "correta": 2 
+    },
+    {
+        "pergunta": "Qual é o significado do Fogo e do Enxofre no Livro do Apocalipse?",
+        "respostas": ["Purificação dos justos", "Destruição de Babilônia", " Restauração de Israel", "Julgamento dos pecadores"],
+        "correta": 3 
+    },
+    {
+        "pergunta": "Qual é o significado das Duas Testemunhas no Livro do Apocalipse?",
+        "respostas": ["Os dois profetas que testificam de Jesus", "Os dois anjos que testificam de Deus", "As duas igrejas que testificam de Jesus", "As duas nações que testificam de Deus"],
+        "correta": 0
+    },
+    {
+        "pergunta": "Quem é o Cavaleiro Vermelho no Livro do Apocalipse?",
+        "respostas": [" O Anticristo", "O Anjo da Morte", "O Falso Profeta", "O Dragão"],
+        "correta": 1 
+    },
+    {
+        "pergunta": "Qual é o significado do Mar de Vidro no Livro do Apocalipse?",
+        "respostas": ["A vitória dos justos", "A derrota dos pecadores", "A restauração de Israel", "A destruição de Babilônia"],
+        "correta": 0 
+    },
+    {
+        "pergunta": "Quem são os Quatro Anjos que seguram os Quatro Ventos no Livro do Apocalipse?",
+        "respostas": ["Os anjos que seguram os quatro cantos da terra", "Os anjos que seguram os ventos do norte, sul, leste e oeste", "Os anjos que seguram os quatro evangelistas", "Os anjos que seguram os quatro elementos: terra, ar, fogo e água"],
+        "correta": 1 
+    },
+    {
+        "pergunta": "Quem foi o patriarca que recebeu a promessa de Deus?",
+        "respostas": ["Abraão", "Isaque", "Jacó", "José"],
+        "correta": 0
+    },
+    {
+        "pergunta": "Qual é o nome do monte onde Moisés recebeu os Dez Mandamentos?",
+        "respostas": ["Monte Calvário", "Monte Tabor", "Monte Olival", "Monte Sinai"],
+        "correta": 3
+    },
+    {
+        "pergunta": "Qual é o significado do nome Javé no contexto do Velho Testamento",
+        "respostas": ["O nome de Deus como redentor", "O nome de Deus como juiz", "O nome de Deus como criador", "O nome de Deus como provedor"],
+        "correta": 2
+    },
+    {
+        "pergunta": "Quem foi o profeta que escreveu o livro de Habacuque?",
+        "respostas": ["Sofonias", "Ageu", "Zacarias", "Habacuque"],
+        "correta": 3
+    },
+    {
+        "pergunta": "Qual é o significado do ritual da expiação no Levítico 16?",
+        "respostas": ["A purificação do Templo", "A expiação dos pecados do povo", "A consagração dos sacerdotes", "A celebração da Páscoa"],
+        "correta": 1
+    },
+    {
+        "pergunta": "Quem foi o rei que introduziu a adoração de Baal em Israel?",
+        "respostas": ["Acabe", "Jeorão", "Jeú", "Omri"],
+        "correta": 0
+    },
+    {
+        "pergunta": "Qual é o significado do conceito de Shekinah no Velho Testamento?",
+        "respostas": ["A presença de Deus entre o povo", " A glória de Deus no Templo", " A justiça de Deus no julgamento", "A misericórdia de Deus na redenção"],
+        "correta": 0
+    },
+    {
+        "pergunta": "Quem foi o profeta que previu a destruição de Nínive?",
+        "respostas": ["Naum", "Jeremias", "Isaías", "Jonas"],
+        "correta": 3
+    },
+    {
+        "pergunta": "Qual é o significado do ritual da circuncisão no Velho Testamento?",
+        "respostas": ["A purificação do corpo", "A consagração dos filhos", "A marca da aliança entre Deus e Abraão", " A celebração da Páscoa"],
+        "correta": 2
+    },
+    {
+        "pergunta": "Quem foi o rei que restaurou o culto a Javé em Judá?",
+        "respostas": ["Josias", "Ezequias", "Joacaz", "Joaquim"],
+        "correta": 1
+    },
+    {
+        "pergunta": "Qual é o significado do conceito de torá no Velho Testamento?",
+        "respostas": [" A justiça de Deus no julgamento", "A misericórdia de Deus na redenção", "A glória de Deus no Templo", "A lei de Deus para o povo"],
+        "correta": 3
+    },
+    {
+        "pergunta": "Quem foi o profeta que escreveu o livro de Miqueias?",
+        "respostas": ["Miqueias", "Isaías", "Jeremias", "Sofonias"],
+        "correta": 0
+    },
+    {
+        "pergunta": "Qual é o significado do ritual da Páscoa no Velho Testamento?",
+        "respostas": ["A purificação do Templo", " A celebração da libertação do Egito", "A consagração dos sacerdotes", "A expiação dos pecados do povo"],
+        "correta": 1
+    },
+    {
+        "pergunta": "Qual é o significado do conceito de Messias no Velho Testamento?",
+        "respostas": ["O juiz de Deus para julgar o povo", "O ungido de Deus para salvar o povo", " O profeta de Deus para guiar o povo", "O rei de Deus para governar o povo"],
+        "correta": 1
+    },
+    {
+        "pergunta": "Qual é o significado do ritual da expiação no Levítico 16?",
+        "respostas": ["A expiação dos pecados do povo", "A purificação do Templo", "A consagração dos sacerdotes", "A celebração da Páscoa"],
+        "correta": 0
+    },
+    {
+        "pergunta": "Qual é o significado do conceito de aliança no Velho Testamento?",
+        "respostas": [" A lei de Deus para o povo", "A justiça de Deus no julgamento", " O pacto entre Deus e o povo", "A misericórdia de Deus na redenção"],
+        "correta": 2
+    },
+    {
+        "pergunta": "Quem foi o profeta que escreveu o livro de Ageu?",
+        "respostas": ["Sofonias", "Malaquias", "Zacarias", "Ageu"],
+        "correta": 3
+    },
+    {
+        "pergunta": "Qual é o significado do conceito de kenosis no contexto da encarnação de Jesus?",
+        "respostas": ["A manifestação da glória de Jesus", "A humilhação de Jesus na cruz", "A renúncia de Jesus à sua divindade", "A ressurreição de Jesus dos mortos"],
+        "correta": 2
+    },
+    {
+        "pergunta": "Quem é o autor do livro de Hebreus e qual é o seu propósito?",
+        "respostas": ["Paulo, para estabelecer a superioridade de Jesus sobre os anjos", "Pedro, para enfatizar a importância da fé", "João, para descrever a vida e o ministério de Jesus  ", "Mateus, para apresentar Jesus como o Messias"],
+        "correta": 0
+    },
+    {
+        "pergunta": "Qual é o significado do conceito de ekklesia no Novo Testamento?",
+        "respostas": ["A sinagoga como o lugar de culto", "A igreja como o corpo de Cristo", " O Templo como o centro da adoração", "A comunidade como o grupo de discípulos"],
+        "correta": 1
+    },
+    {
+        "pergunta": "Quantos livros tem o Novo Testamento?",
+        "respostas": ["27", "39", "66", "73"],
+        "correta": 0    
+    },
+    {
+        "pergunta": "Quantos livros tem o velho testamento?",
+        "respostas": ["27", "39", "66", "73"],
+        "correta": 1
+
+    },
+    {
+        "pergunta": "Quantos livros tem na bíblia?",
+        "respostas": ["27", "39", "66", "73"],
+        "correta": 2
+    },
+    {
+        "pergunta": "Quem foi Pedro antes de conhecer Jesus?",
+        "respostas": ["Apóstolo", "Pescador", "Discípulo", "Todos os anteriores"],
+        "correta": 2
+        
+    },
+    {
+        "pergunta": "Quem era o irmão de Pedro?",
+        "respostas": ["Pedro", "Tiago", "João", "André"],
+        "correta": 3
+    },
+    {
+        "pergunta": "Quais discipulos subiram o monte da transfiguração?",
+        "respostas": ["Pedro, Tiago, João", "Tiago, Mateus, João", "João, André, Marcos", "André,Judas, Matias"],
+        "correta": 0
+    },
+    {
+        "pergunta": "Quais profetas apareceram diante de Jesus no monte da transfiguração?",
+        "respostas": ["Eliseu e Davi", "Moisés e Elias", "Daniel e Davi", "Elias e Davi"],
+        "correta": 1
+    },
+    {
+        "pergunta": "Por quantos dias Jesus jejuou?",
+        "respostas": ["40 dias e 40 noites", "40 dias e 39 noites", "50 dias e 49 noites", "41 dias e 40 noites"],
+        "correta": 0
+    },
+    {
+        "pergunta": "Qual foi o primeiro filho de Abraão?",
+        "respostas": ["Jacó", "Isaque", "Israel", "Ismael"],
+        "correta": 3
+    },
+    {
+        "pergunta": "Quanto tempo o povo Hebreu caminhou no deserto após a saída do egito?",
+        "respostas": ["30 anos", "10 anos", "40 anos", "100 anos"],
+        "correta": 2
+    },
+    {
+        "pergunta": "Quem é o inimigo mencionado em Mateus 13:25 e qual é o seu papel?",
+        "respostas": ["O mundo, para opor-se a Jesus", "A carne, para tentar os discípulos", "Satanás, para semear a discórdia", "A lei, para condenar os pecadores"],
+        "correta": 2
+    },
+    {
+        "pergunta": "Qual é o significado do conceito de 'parousia' no Novo Testamento?",
+        "respostas": ["A segunda vinda de Jesus", "A ressurreição dos mortos", " O juízo final", "A ascensão de Jesus"],
+        "correta": 0
+    },
+    {
+        "pergunta": "Quem é o autor do livro de Judas e qual é o seu propósito?",
+        "respostas": ["Judas, para alertar os crentes sobre os falsos professores", "Pedro, para enfatizar a importância da fé", "João, para descrever a vida e o ministério de Jesus", "Mateus, para apresentar Jesus como o Messias"],
+        "correta": 0
+    },
+    {
+        "pergunta": "Qual é o significado do conceito de 'apostasia' no Novo Testamento?",
+        "respostas": ["A deserção dos discípulos", "A rejeição de Jesus como o Messias", "A perseguição dos crentes", "A apostasia final antes da segunda vinda"],
+        "correta": 1
+    },
+    {
+        "pergunta": "Quem é o 'homem da iniquidade' e qual é o seu papel?",
+        "respostas": [" O falso profeta, para enganar os crentes", "O inimigo de Deus, para destruir a igreja", "O juiz do mundo, para julgar os pecadores", "O Anticristo, para se opor a Jesus"],
+        "correta": 3
+    },
+    {
+        "pergunta": "Qual é o significado do conceito de 'mysterion' no Novo Testamento?",
+        "respostas": ["O mistério da salvação", "O mistério da igreja", "O mistério da encarnação de Jesus", "O mistério da segunda vinda"],
+        "correta": 2
+    },
+    {
+        "pergunta": "Quem é o autor do livro de Apocalipse e qual é o seu propósito?",
+        "respostas": ["Pedro, para enfatizar a importância da fé", "João, para descrever a segunda vinda de Jesus", "Paulo, para estabelecer a superioridade de Jesus sobre os anjos", "Mateus, para apresentar Jesus como o Messias"],
+        "correta": 1
+    },
+    {
+        "pergunta": "Quem é o autor do livro de Apocalipse e qual é o seu propósito?",
+        "respostas": ["Pedro", "Tiago", "João", "André"],
+        "correta": 2
+    },
+    {
+        "pergunta": "Qual é o significado do conceito de 'soma' no Novo Testamento?",
+        "respostas": ["A soma dos pecados", "A soma da justiça", "A soma da salvação", "A soma da igreja"],
+        "correta": 0
+    },
+    {
+        "pergunta": "Quem é o anjo do Senhor e qual é o seu papel?",
+        "respostas": ["O anjo Gabriel, para anunciar o nascimento de Jesus", "O anjo Miguel, para lutar contra Satanás", " O anjo Rafael, para curar os enfermos", "O anjo Uriel, para revelar os mistérios de Deus"],
+        "correta": 0
+    },
+    {
+        "pergunta": "Qual é o significado do conceito de 'koinonia' no Novo Testamento?",
+        "respostas": ["A comunhão com o mundo", "A comunhão com os anjos", "A comunhão com os irmãos", "A comunhão com Deus"],
+        "correta": 3
+    },
+    {
+        "pergunta": "Qual é o significado do conceito de 'pleroma' no Novo Testamento?",
+        "respostas": ["A plenitude da criação em Jesus", "A plenitude da igreja em Jesus", "A plenitude da salvação em Jesus", "A plenitude da divindade em Jesus"],
+        "correta": 3
+    },
+    {
+        "pergunta": "Quem é o inimigo semeador e qual é o seu papel?",
+        "respostas": ["O diabo, para semear a discórdia", "O mundo, para opor-se a Jesus", "A carne, para tentar os discípulos", "A lei, para condenar os pecadores"],
+        "correta": 0
+    },
+    {
+        "pergunta": "Qual é o significado do conceito de 'metanoia' no Novo Testamento?",
+        "respostas": ["A conversão ao cristianismo", "O arrependimento dos pecados", "A renovação da mente", "A transformação da vida"],
+        "correta": 1
+    },
+    {
+        "pergunta": "Qual é o significado do conceito de 'teleios' no Novo Testamento?",
+        "respostas": ["A perfeição da igreja em Jesus", "A perfeição da salvação em Jesus", "A perfeição da divindade em Jesus", " A perfeição da criação em Jesus"],
+        "correta": 2
+    },
+    {
+        "pergunta": "Qual é o nome do amigo de Jó que o visita durante sua aflição e lhe oferece conselhos, mas acaba sendo repreendido por Deus?",
+        "respostas": ["Bildade", "Zofar", "Elifaz", "Eliú"],
+        "correta": 2
+    },
+    {
+        "pergunta": "Quantos mandamentos foram entregues a moisés?",
+        "respostas": ["5", "15", "12", "10"],
+        "correta": 3
+    }
+
+
+]
