@@ -64,6 +64,10 @@ function trocarPerguntas(perguntas) {
     criarPerguntas(perguntasAleatorias);
 }
 
+// Inicializar pontuação
+let pontuacao = 0;
+
+
 // Função para enviar respostas
 function enviarRespostas(perguntas) {
     // Obter respostas selecionadas
@@ -87,7 +91,22 @@ function enviarRespostas(perguntas) {
         `).join('')}
     `;
     document.body.appendChild(divRespostas);
+
+    // Atualizar pontuação
+    let pontuacao = 0;
+    respostas.forEach((resposta, index) => {
+        if (resposta !== null && resposta == perguntas[index].correta) {
+            pontuacao += 10;
+        }
+    });
+
+    // Exibir pontuação final
+    const divPontuacao = document.createElement('div');
+    divPontuacao.id = 'respostas';
+    divPontuacao.innerHTML = `Pontuação final: ${pontuacao} pontos`;
+    document.body.appendChild(divPontuacao);
 }
+
 
 // Função para refazer
 function refazer(perguntas) {
