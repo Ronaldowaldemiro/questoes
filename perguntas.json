@@ -521,7 +521,83 @@
         "pergunta": "Quantos mandamentos foram entregues a moisés?",
         "respostas": ["5", "15", "12", "10"],
         "correta": 3
+    },
+    {
+        "pergunta": "Qual é o significado de 'raqia'?",
+        "respostas": ["Camada de nuvens", "Atmosfera da Terra", "Separador de águas", "Divisão entre céu e terra"],
+        "correta": 2
+    },
+    {
+        "pergunta": "Quem são os Nefilim?",
+        "respostas": ["Descendentes de Noé", "Tribo da Mesopotâmia", "Gigantes pré-diluvianos", " Anjos caídos"],
+        "correta": 3
+    },
+    {
+        "pergunta": "Qual é o propósito do sacrifício de Isaac?",
+        "respostas": ["Ritual de purificação", " Teste da fé de Abraão", "Demonstração da justiça de Deus", "Prefiguração do sacrifício de Jesus"],
+        "correta": 1
+    },
+    {
+        "pergunta": "Quem é Melquisedeque?",
+        "respostas": ["Rei-sacerdote", "Profeta", "Anjo", "Descendente de Noé"],
+        "correta": 0
+    },
+    {
+        "pergunta": "Qual é o significado do dilúvio?",
+        "respostas": ["Castigo por pecado", "Demonstração de misericórdia", "Prefiguração do juízo final", "Explicação científica da formação da Terra"],
+        "correta": 0
+    },
+    {
+        "pergunta": "Qual é o significado do nome 'Jeová'?",
+        "respostas": ["O Deus dos Ancestrais", "Eu Sou Quem Sou", "O Deus da Liberdade", "O Deus da Vingança"],
+        "correta": 1
+    },
+    {
+        "pergunta": "Quem é o personagem de Jetro?",
+        "respostas": [" Rei do Egito", "Sacerdote midianita", "Pai de Moisés", "Líder dos israelitas"],
+        "correta": 2
+    },
+    {
+        "pergunta": "Qual é o propósito das pragas no Egito?",
+        "respostas": ["Estabelecer a autoridade de Moisés", "Libertar os israelitas da escravidão", "Punir os egípcios por sua idolatria", "Demonstrar a poder de Deus"],
+        "correta": 3
+    },
+    {
+        "pergunta": "Qual é o significado do maná no deserto?",
+        "respostas": [" Alimento milagroso para os israelitas", "Símbolo da provisão de Deus", "Castigo por desobediência", "Preparação para a entrada na Terra Prometida"],
+        "correta": 0
+    },
+    {
+        "pergunta": "Qual é o propósito da construção do Tabernáculo?",
+        "respostas": [" Lugar de sacrifício e adoração", "Símbolo da aliança entre Deus e Israel", "Habitação de Deus entre os israelitas", "Preparação para a entrada na Terra Prometida"],
+        "correta": 2
+    },
+    {
+        "pergunta": "Qual é o propósito do ritual de purificação?",
+        "respostas": ["Agradecer a Deus pelo nascimento de um filho", "Proteger a comunidade de impurezas", "Estabelecer a autoridade do sacerdote", "Purificar a mulher após o parto"],
+        "correta": 3
+    },
+    {
+        "pergunta": "Qual é o significado do conceito de 'kodesh'?",
+        "respostas": ["Pureza e limpeza ritual", "Santidade e separação para Deus", "Justiça e retidão moral", "Misericórdia e compaixão"],
+        "correta": 1
+    },
+    {
+        "pergunta": "Quem é o personagem de Aarão?",
+        "respostas": ["Filho de Moisés e sucessor de Aarão", "Sacerdote que ofereceu incenso estranho", "Irmão de Moisés e primeiro sumo sacerdote", "Líder dos israelitas após a morte de Moisés"],
+        "correta": 2
+    },
+    {
+        "pergunta": "Qual é o propósito da festa dos Tabernáculos?",
+        "respostas": ["Comemorar a libertação do Egito", "Agradecer a Deus pela colheita", "Celebrar a dedicação do Templo", "Recordar a jornada no deserto"],
+        "correta": 0
+    },
+    {
+        "pergunta": "Qual é o significado do conceito de 'tsara'at'?",
+        "respostas": [" Sinal de bênção", "Castigo por pecado ", " Impureza ritual ou moral", " Lepra ou doença contagiosa"],
+        "correta": 3
     }
+    
 
 
 ]
