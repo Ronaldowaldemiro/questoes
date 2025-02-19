@@ -596,8 +596,105 @@
         "pergunta": "Qual é o significado do conceito de 'tsara'at'?",
         "respostas": [" Sinal de bênção", "Castigo por pecado ", " Impureza ritual ou moral", " Lepra ou doença contagiosa"],
         "correta": 3
+    },
+    {
+        "pergunta": "Qual é o nome do amigo de Jó que o visita durante sua aflição e lhe oferece conselhos, mas acaba sendo repreendido por Deus?",
+        "respostas": ["Bildade", "Zofar", "Elifaz", "Eliú"],
+        "correta": 2
+    },
+    {
+        "pergunta": "Qual é o propósito do discurso de Moisés?",
+        "respostas": ["Estabelecer as leis e regulamentos", "Criticar a desobediência dos israelitas", "Relembrar a história de Israel", "Preparar os israelitas para a entrada na Terra Prometida"],
+        "correta": 2
+    },
+    {
+        "pergunta": "Qual é o significado do conceito de 'shema'?",
+        "respostas": ["Ouvir e obedecer a Deus", "Amar a Deus com todo o coração", "Guardar os mandamentos de Deus", "Reconhecer a unicidade de Deus"],
+        "correta": 0
+    },
+    {
+        "pergunta": "Quem é o personagem de Josué?",
+        "respostas": ["Líder dos israelitas após a morte de Josué", "Sacerdote que ajudou a Moisés", "Filho de Moisés", "Sucessor de Moisés como líder de Israel"],
+        "correta": 3
+    },
+    {
+        "pergunta": "Qual é o significado do conceito de 'hesed?'",
+        "respostas": ["Justiça e retidão de Deus", "Amor e misericórdia de Deus", "Fidelidade e lealdade de Deus", "Poder e autoridade de Deus"],
+        "correta": 1
+    },
+    {
+        "pergunta": "Qual é o propósito do censo?",
+        "respostas": ["Organizar o povo para a jornada", "Identificar os líderes do povo", "Contar o povo para a guerra", "Estabelecer a ordem de marcha"],
+        "correta": 2
+    },
+    {
+        "pergunta": "Quem é o personagem de Coré?",
+        "respostas": ["Líder da rebelião contra Moisés", "Sacerdote que ajudou a Moisés", "Espião que foi enviado a Canaã", "Líder dos israelitas após a morte de Moisés"],
+        "correta": 0
+    },
+    {
+        "pergunta": "Qual é o significado da serpente de bronze?",
+        "respostas": ["Sinal da presença de Deus", "Proteção contra os inimigos", "Castigo por desobediência", "Símbolo da salvação"],
+        "correta": 3
+    },
+    {
+        "pergunta": "Quem é o personagem de Balaão?",
+        "respostas": ["Profeta que amaldiçoou os israelitas", "Profeta que abençoou os israelitas", "Rei de Moabe que lutou contra os israelitas", "Líder dos midianitas que se aliou a Moisés"],
+        "correta": 1 
+    },
+    {
+        "pergunta": "Qual é o propósito da cerimônia de purificação?",
+        "respostas": ["Estabelecer a ordem de marcha", "Preparar os israelitas para a entrada na Terra Prometida", "Proteger os israelitas contra as pragas", "Purificar os israelitas após a morte de alguém"],
+        "correta": 3
+    },
+    {
+        "pergunta": "Qual é o nome do profeta que foi jogado ao mar por causa de sua mensagem?",
+        "respostas": ["Isaías", "Jonas", "Jeremias", "Ezequiel"],
+        "correta": 1
+    },
+    {
+        "pergunta": "Qual é o significado do conceito de 'Shekinah' na Bíblia?",
+        "respostas": ["Poder de Deus", "Misericórdia de Deus", "Presença de Deus", "Sabedoria de Deus"],
+        "correta": 2
+    },
+    {
+        "pergunta": "Quem é o personagem que disse 'Eu sou o caminho, a verdade e a vida'?",
+        "respostas": ["Moisés", "Abraão", "Isaías", "Jesus"],
+        "correta": 3
+    },
+    {
+        "pergunta": "Qual é o nome do livro da Bíblia que é conhecido como o 'Cântico dos Cânticos'?",
+        "respostas": ["Provérbios", "Eclesiastes", "Cântico dos Cânticos", "Salmo 119"],
+        "correta": 2
+    },
+    {
+        "pergunta": "Quem é o profeta que foi levado ao céu em uma carruagem de fogo?",
+        "respostas": ["Isaías", "Jeremias", "Eliseu", "Ezequiel"],
+        "correta": 2
+    },
+    {
+        "pergunta": "Qual é o significado do conceito de 'koinonia' na Bíblia?",
+        "respostas": ["Comunhão com os anjos", "Comunhão com o mundo", "Comunhão com Deus", "Comunhão com os irmãos"],
+        "correta": 3
+    },
+    {
+        "pergunta": "Quem é o personagem que disse 'Eu sou o pão da vida'?",
+        "respostas": ["Abraão", "Isaías", "Moisés", "Jesus"],
+        "correta": 3
+    },
+    {
+        "pergunta": "Qual é o nome do livro da Bíblia que é conhecido como o 'Apocalipse'?",
+        "respostas": ["Daniel", "Ezequiel", "Isaías", "Apocalipse"],
+        "correta": 3
+    },
+    {
+        "pergunta": "Quem é o profeta que foi chamado para ser um 'vigia' para o povo de Israel?",
+        "respostas": ["Jeremias", "Isaías", "Ezequiel", "Habacuque"],
+        "correta": 2
+    },
+    {
+        "pergunta": "Qual é o significado do conceito de 'hesed' na Bíblia?",
+        "respostas": ["Justiça e retidão de Deus", "Fidelidade e lealdade de Deus", "Poder e autoridade de Deus", "Amor e misericórdia de Deus"],
+        "correta": 3
     }
-    
-
-
 ]
