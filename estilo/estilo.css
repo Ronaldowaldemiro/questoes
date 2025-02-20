@@ -9,7 +9,7 @@ form {
     max-width: 500px;
 }
 
-#container {
+.container {
     background-image: linear-gradient(to right, #ff2424, #2eec47); 
     width: 50%;
     margin: 40px auto;

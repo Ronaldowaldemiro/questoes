@@ -1,48 +1,53 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Forca</title>
-<link rel="shortcut icon" href="favicon-16x16.png" type="image/x-icon">
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forca</title>
+    <link rel="shortcut icon" href="../imagens/favicon-16x16.png" type="image/x-icon">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 
-body {
-    background-image: linear-gradient(to right, #5544c4, #2821b1);
-    text-align: center;
-    font-family: 'Oswald',  sans-serif; 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    height: 100vh;
-    margin: 0;
-}
+        body {
+            background-image: linear-gradient(to right, #ff2424, #2eec47);
+            text-align: center;
+            font-family: 'Oswald',  sans-serif; 
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            height: 100vh;
+            width: 100vw;
+            margin: 0;
+        }
 
-h1 {
-    margin-bottom: 20px;
-}
+        h1 {
+            margin-bottom: 20px;
+        }
 
-.enfeite {
-    background-color: #5544c4;
-    color: white;
-}
+        .enfeite {
+            background-color: #307244;
+            border-radius: 5px;
+            border: 5px;
+            height: 22px;
+            color: white;
+        }
 
-::placeholder {
-    color: white;
-}
+        ::placeholder {
+            color: white;
+        }
 
-#hangman-container {
-    
-    text-align: center;
-    background-color: #fff;
-    padding: 10px;
-    border-radius: 6px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
+        #hangman-container {
+            margin: auto;
+            width: 300px;
+            text-align: center;
+            background-color: #fff;
+            padding: 10px;
+            border-radius: 6px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
 
-</style>
+    </style>
 </head>
 <body>
     
@@ -54,7 +59,7 @@ h1 {
         <button class="enfeite" onclick="guessLetter()">tentar</button><br>
         <button class="enfeite" onclick="quitGame()">Sair</button><br>
         <button class="enfeite" onclick="restartGame()">Recomeçar</button><br>
-        <p><a style="color: #5544c4;" href="javascript:history.go(-1)">Voltar </a></p>  
+        <p><a style="color: #d81d1d;" href="javascript:history.go(-1)">Voltar </a></p>  
         <p id="message"></p>
     </div>
 
