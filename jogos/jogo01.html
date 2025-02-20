@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Forca</title>
+<link rel="shortcut icon" href="favicon-16x16.png" type="image/x-icon">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+body {
+    background-image: linear-gradient(to right, #5544c4, #2821b1);
+    text-align: center;
+    font-family: 'Oswald',  sans-serif; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.enfeite {
+    background-color: #5544c4;
+    color: white;
+}
+
+::placeholder {
+    color: white;
+}
+
+#hangman-container {
+    
+    text-align: center;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+</style>
+</head>
+<body>
+    
+    <div id="hangman-container">
+        <h1>Forca</h1>
+        <p id="word-display"></p>
+        <p>chances: <span id="chances">10</span></p>
+        <input class="enfeite" type="text" id="guess-input" placeholder="O que é?"><br>
+        <button class="enfeite" onclick="guessLetter()">tentar</button><br>
+        <button class="enfeite" onclick="quitGame()">Sair</button><br>
+        <button class="enfeite" onclick="restartGame()">Recomeçar</button><br>
+        <p><a style="color: #5544c4;" href="javascript:history.go(-1)">Voltar </a></p>  
+        <p id="message"></p>
+    </div>
+
+    <script>
+        var wordList = ["carro", "casa", "flor", "cachorro", "gato", "árvore", "livro", "cadeira", "mesa", "computador", "telefone", "janela", "porta", "teto", "piso", "quadro", "lápis", "caneta", "escola", "professor", "aluno", "cidade", "país", "planeta", "sol", "lua", "estrela", "céu", "nuvem", "chuva", "rio", "mar", "oceano", "lago", "piscina", "planta", "flor", "fruto", "legume", "verdura", "pão", "bolo", "doce", "salgado", "amargo", "azedo", "frio", "quente", "vento", "tempestade", "neve", "gelado", "calor", "fresco", "pesado", "leve", "alto", "baixo", "longo", "curto", "rápido", "lento", "novo", "velho", "bonito", "feio", "rico", "pobre", "forte", "fraco", "duro", "mole", "seco", "molhado", "limpo", "sujo", "claro", "escuro", "colorido", "preto", "branco", "vermelho", "laranja", "amarelo", "verde", "azul", "anil", "violeta", "rosa", "cinza", "marrom", "ouro", "prata", "cobre", "ferro", "papel", "madeira", "metal", "água", "fogo", "terra", "ar", "espaço", "universo", "galáxia", "estrela", "planeta", "satélite", "asteroide"];
+        var randomWord = wordList[Math.floor(Math.random() * wordList.length)];
+        var guessedLetters = [];
+        var chances = 10;
+
+        function initializeGame() {
+            var wordDisplay = document.getElementById("word-display");
+            wordDisplay.textContent = "_ ".repeat(randomWord.length);
+        }
+
+        function guessLetter() {
+            var guessInput = document.getElementById("guess-input");
+            var guess = guessInput.value.toLowerCase();
+
+            if (guessedLetters.includes(guess)) {
+                setMessage("Você já tentou esta letra.");
+                return;
+            }
+
+            guessedLetters.push(guess);
+            guessInput.value = "";
+
+            if (!randomWord.includes(guess)) {
+                chances--;
+                document.getElementById("chances").textContent = chances;
+                setMessage(guess + " não está na palavra.");
+            }
+
+            var wordSoFar = "";
+            for (var i = 0; i < randomWord.length; i++) {
+                var letter = randomWord[i];
+                if (guessedLetters.includes(letter)) {
+                    wordSoFar += letter + " ";
+                } else {
+                    wordSoFar += "_ ";
+                }
+            }
+
+            document.getElementById("word-display").textContent = wordSoFar;
+
+            if (!wordSoFar.includes("_")) {
+                setMessage("Parabéns, você ganhou!");
+            }
+
+            if (chances === 0) {
+                setMessage("Suas chances acabaram. A palavra era: " + randomWord + ".");
+            }
+        }
+
+        function setMessage(message) {
+            document.getElementById("message").textContent = message;
+        }
+
+        function quitGame() {
+            setMessage("Fim de jogo. A palavra era: " + randomWord + ".");
+            document.getElementById("guess-input").setAttribute("disabled", "disabled");
+            document.querySelector("button").setAttribute("disabled", "disabled");
+        }
+
+        function restartGame() {
+            location.reload();
+        }
+
+        initializeGame();
+    </script>
+</body>
+</html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Velha</title>
+    <link rel="shortcut icon" href="favicon8-16x16.png" type="image/x-icon">
+    <style>
+
+        @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+        body {
+            background-image: linear-gradient(to right, #5544c4, #2821b1);
+            text-align: center;
+            font-family: 'Oswald',  sans-serif; 
+            margin-top: 50px;           
+        }
+
+        .board {
+            display: grid;
+            grid-template-columns: repeat(3, 100px);
+            gap: 4px;
+            margin-top: 20px;
+        }
+
+        .cell {
+            width: 100px;
+            height: 100px;
+            border: 1px solid #ccc;
+            font-size: 2em;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+        }
+
+        button {
+            background-color: #5544c4;
+            color: white;
+            margin-top: 20px;
+            font-size: 1em;
+            padding: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Jogo da Velha</h1>
+<div id="message"></div>
+<div class="board" onclick="handleCellClick(event)">
+    <div class="cell" data-index="0"></div>
+    <div class="cell" data-index="1"></div>
+    <div class="cell" data-index="2"></div>
+    <div class="cell" data-index="3"></div>
+    <div class="cell" data-index="4"></div>
+    <div class="cell" data-index="5"></div>
+    <div class="cell" data-index="6"></div>
+    <div class="cell" data-index="7"></div>
+    <div class="cell" data-index="8"></div>
+</div>
+<button onclick="redirecionarParaInicio()"><b>Voltar ao Início</b></button>
+<button onclick="redirecionarParaJogoNovo()"><b>Jogar Novamente</b></button>
+
+<script>
+    let currentPlayer = 'X';
+    let gameBoard = ['', '', '', '', '', '', '', '', ''];
+    let gameActive = true;
+
+    function handleCellClick(event) {
+        const clickedCell = event.target;
+        const cellIndex = clickedCell.dataset.index;
+
+        if (!gameActive || gameBoard[cellIndex] !== '') return;
+
+        gameBoard[cellIndex] = currentPlayer;
+        clickedCell.textContent = currentPlayer;
+
+        if (checkWinner()) {
+            document.getElementById('message').textContent = `Jogador ${currentPlayer} ganhou!`;
+            gameActive = false;
+        } else if (gameBoard.every(cell => cell !== '')) {
+            document.getElementById('message').textContent = "Empate!";
+            gameActive = false;
+        } else {
+            currentPlayer = currentPlayer === 'X' ? 'O' : 'X';
+        }
+    }
+
+    function checkWinner() {
+        const winPatterns = [
+            [0, 1, 2], [3, 4, 5], [6, 7, 8], // Rows
+            [0, 3, 6], [1, 4, 7], [2, 5, 8], // Columns
+            [0, 4, 8], [2, 4, 6]             // Diagonals
+        ];
+
+        for (const pattern of winPatterns) {
+            const [a, b, c] = pattern;
+            if (gameBoard[a] !== '' && gameBoard[a] === gameBoard[b] && gameBoard[b] === gameBoard[c]) {
+                return true;
+            }
+        }
+
+        return false;
+    }
+
+    function redirecionarParaInicio() {
+        window.location.href = "../jogos.html";
+    }
+
+    function redirecionarParaJogoNovo() {
+        window.location.href = "jogo02.html";
+    }
+</script>
+
+</body>
+</html>
