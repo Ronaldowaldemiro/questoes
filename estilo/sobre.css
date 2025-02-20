@@ -28,10 +28,21 @@ nav a {
 
 main {
     width: 80%;
-    margin: 35px 50px 50px 100px;
+    margin: 15px 50px 50px 100px;
     padding: 20px;
     background-color: white;
     color: black;
     text-align: center;
     border-radius: 5px;
+}
+
+main p {
+    font-size: 1.5em;
+    margin: .5px;
+}
+
+main a {
+    font-size: 1.1em;
+    color: rgb(243, 24, 24);
+    text-decoration: none;
 }
