@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #585555;
+}
+
+#wa {
+    background-image: url(../imagens/WhatsApp.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    color: rgb(54, 124, 69);
+    padding: 100px 0px 0px 10px;
+    height: 350px;
+    text-align: center;
+    font-size: 1.5em;
+    border: 1px solid black;
+}
+
+#em {
+    background-image: url(https://thumbs.dreamstime.com/b/gmail-logo-gmail-icon-google-email-service-logotype-icon-vector-gmail-logo-gmail-icon-google-email-service-logotype-icon-vector-302789383.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    color: rgb(60, 71, 228);
+    padding: 100px 0px 0px 10px;
+    height: 350px;
+    text-align: center;
+    font-size: 1.5em;
+    border: 1px solid black;
+}
+
+#in {
+    background-image: url(../imagens/instagran.png);
+    background-size: cover;
+    background-position: bottom bottom  ;
+    background-attachment: fixed;
+    color: rgb(218, 30, 202);
+    padding: 100px 0px 0px 10px;
+    height: 350px;
+    text-align: center;
+    font-size: 1.5em;
+    border: 1px solid black;
+}
+
+#li {
+    background-image: url(../imagens/linkedin.png);
+    background-size: cover;
+    background-position: bottom bottom;
+    background-attachment: fixed;
+    color: rgb(62, 169, 219);
+    padding: 100px 0px 0px 10px;
+    height: 350px;
+    text-align: center;
+    font-size: 1.5em;
+    border: 1px solid black;   
+}
+
+nav {
+    height: 150px;
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    margin: auto;
+    padding: 55px;
+}
+
+nav a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    color: white;
+    text-decoration: none;
+    margin: 50px;
+    
+}
